@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tamburins</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="common/css/common.css" />
+    <link rel="stylesheet" href="common/css/common-media.css" />
+    <link rel="stylesheet" href="maincss/main.css" />
+    <link rel="stylesheet" href="maincss/main-media.css" />
+    <link
+      rel="shortcut icon"
+      type="images/x-icon"
+      href="common/images/favicon.ico"
+    />
+
+    <script src="mainjs/jquery-1.10.2.min.js"></script>
+    <script src="mainjs/vegas/vegas.min.js"></script>
+    <script src="mainjs/jssor.slider-22.1.8.mini.js"></script>
+    <!--visual slide-->
+
+    <script src="mainjs/jquery.scrollbox.js"></script>
+
+    <script src="mainjs/jquery.scrollTo.min.js"></script>
+
+    <script src="common/js/common.js"></script>
+    <script src="mainjs/main.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header class="header">
+        <div class="header_pc">
+          <div class="header_menu">
+            <p>
+              <a href="index.html"
+                ><img src="common/images/Logo.png" alt="tamburins_logo"
+              /></a>
+            </p>
+
+            <nav class="nav">
+              <ul class="gnb">
+                <li class="m"><a href="./sub/sub.html">향관련 제품</a></li>
+                <li class="m"><a href="./sub/sub2.html">선물 추천</a></li>
+                <li class="m"><a href="#">샘플 경험</a></li>
+                <li class="m"><a href="#">매장 보기</a></li>
+              </ul>
+            </nav>
+
+            <ul class="pc_login">
+              <li><a href="../login_join/login.html">Login</a> /</li>
+              <li><a href="#">Search</a> /</li>
+              <li><a href="#">Cart</a></li>
+            </ul>
+
+            <div class="submenu">
+              <ul class="sub sub1">
+                <li class="s1-1">
+                  <a href="../sub/sub.html"
+                    >핸드<span class="s_circle"></span
+                  ></a>
+                </li>
+                <li class="s1-2">
+                  <a href="../sub/sub2.html"
+                    >바디<span class="s_circle"></span
+                  ></a>
+                </li>
+                <li class="s1-3">
+                  <a href="#">캔들<span class="s_circle"></span></a>
+                </li>
+                <li class="s1-4">
+                  <a href="#">멀티프래그런스<span class="s_circle"></span></a>
+                </li>
+              </ul>
+
+              <ul class="sub sub2">
+                <li class="s2-1">
+                  <a href="#">베스트 셀러<span class="s_circle"></span></a>
+                </li>
+                <li class="s2-2">
+                  <a href="#">선물 추천<span class="s_circle"></span></a>
+                </li>
+              </ul>
+
+              <ul class="sub sub3"></ul>
+
+              <ul class="sub sub4">
+                <li class="s4-1">
+                  <a href="#">스토어 둘러보기<span class="s_circle"></span></a>
+                </li>
+                <li class="s4-2">
+                  <a href="#">전시 구경하기<span class="s_circle"></span></a>
+                </li>
+              </ul>
+            </div>
+            <!--submenu/-->
+          </div>
+          <!--header_menu/-->
+        </div>
+        <!--header_pc/-->
+
+        <div class="header_mt">
+          <p class="h_menubar">
+            <a href="#"
+              ><img src="common/images/menubar.png" alt="menubar"
+            /></a>
+          </p>
+          <p class="h_logo">
+            <a href="index.html"
+              ><img src="common/images/Logo.png" alt="tamburins_logo"
+            /></a>
+          </p>
+
+          <ul class="mt_login">
+            <li class="search">
+              <a href="#"
+                ><img src="common/images/search.png" alt="search_btn"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="common/images/cart.png" alt="cart_btn"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <!--header_mt/-->
+      </header>
+
+      <div class="menu_nav">
+        <p class="nav_close">
+          <img src="common/images/ic_menu-x.png" alt="close_btn" />
+        </p>
+        <ul class="gnb_mt">
+          <li>
+            <a href="sub/sub.html" target="_self">향관련 제품</a>
+            <ul class="sub_mt">
+              <li>
+                <a href="sub/sub.html">핸드<span class="mt_circle"></span></a>
+              </li>
+              <li>
+                <a href="sub/sub2.html">바디<span class="mt_circle"></span></a>
+              </li>
+              <li>
+                <a href="#">캔들<span class="mt_circle"></span></a>
+              </li>
+              <li>
+                <a href="#">멀티프래그런스<span class="mt_circle"></span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" target="_self" class="n_login">선물 추천</a>
+            <ul class="sub_mt">
+              <li>
+                <a href="#">베스트 셀러<span class="mt_circle"></span></a>
+              </li>
+              <li>
+                <a href="#">선물 추천<span class="mt_circle"></span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="#">샘플 경험</a></li>
+
+          <li>
+            <a href="#">매장 보기</a>
+            <ul class="sub_mt">
+              <li>
+                <a href="#">스토어 둘러보기<span class="mt_circle"></span></a>
+              </li>
+              <li>
+                <a href="#">전시 구경하기<span class="mt_circle"></span></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="gnb2">
+          <li><a href="/login_join/login.html">Login</a></li>
+          <li><a href="#">문의하기</a></li>
+          <li><a href="#">마이페이지</a></li>
+          <li><a href="#">Shop in KR</a></li>
+        </ul>
+      </div>
+      <!--menu_nav/-->
+
+      <div class="black_back"></div>
+
+      <div class="search_open">
+        <p class="search_close">
+          <img src="common/images/arrow.png" alt="search_close_btn" />
+        </p>
+
+        <div class="search_in">
+          <p class="s_txt">
+            <input
+              type="text"
+              placeholder="탬버린즈와 함께 향기로운 하루 만들기"
+            />
+          </p>
+          <p class="s_btn">
+            <input
+              type="image"
+              src="common/images/search.png"
+              alt="search_btn"
+            />
+          </p>
+
+          <p class="search_txt">지금 가장 많이 찾아요!</p>
+
+          <div id="scroll" class="scroll-text">
+            <ul class="s_list">
+              <li><a href="#">#샤워리바디</a></li>
+              <li><a href="#">#튜브 핸드</a></li>
+              <li><a href="#">#올팩티브 핸들</a></li>
+              <li><a href="#">#퍼퓸 핸드</a></li>
+              <li><a href="#">#핸드의 바디</a></li>
+              <li><a href="#">#멀티프래그런스</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--search_in-->
+      </div>
+      <!--search_open-->
+
+      <section class="visual">
+        <div
+          id="jssor_1"
+          style="
+            position: relative;
+            margin: 0 auto;
+            top: 0px;
+            left: 0px;
+            width: 1300px;
+            height: 700px;
+            overflow: hidden;
+            visibility: hidden;
+          "
+        >
+          <div
+            data-u="slides"
+            style="
+              cursor: default;
+              position: relative;
+              top: 0px;
+              left: 0px;
+              width: 1300px;
+              height: 700px;
+              overflow: hidden;
+            "
+          >
+            <div>
+              <a href="#"
+                ><img data-u="image" src="images/visual1.jpg" alt="visual_img1"
+              /></a>
+            </div>
+            <div>
+              <a href="#"
+                ><img data-u="image" src="images/visual2.jpg" alt="visual_img2"
+              /></a>
+            </div>
+            <div>
+              <a href="#"
+                ><img data-u="image" src="images/visual3.jpg" alt="visual_img3"
+              /></a>
+            </div>
+            <div>
+              <a href="#"
+                ><img data-u="image" src="images/visual4.jpg" alt="visual_img4"
+              /></a>
+            </div>
+            <div>
+              <a href="#"
+                ><img data-u="image" src="images/visual5.jpg" alt="visual_img5"
+              /></a>
+            </div>
+          </div>
+          <!-- Bullet Navigator -->
+
+          <div
+            data-u="navigator"
+            class="jssorb05"
+            style="bottom: 16px; right: 16px"
+            data-autocenter="1"
+          >
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width: 16px; height: 16px"></div>
+          </div>
+          <!-- Arrow Navigator -->
+          <span
+            data-u="arrowleft"
+            class="jssora22l"
+            style="
+              top: 0px;
+              left: 20px;
+              width: 40px;
+              height: 58px;
+              margin-top: 20px;
+            "
+            data-autocenter="2"
+          ></span>
+          <span
+            data-u="arrowright"
+            class="jssora22r"
+            style="
+              top: 0px;
+              right: 20px;
+              width: 40px;
+              height: 58px;
+              margin-top: 20px;
+            "
+            data-autocenter="2"
+          ></span>
+        </div>
+        <!-- #endregion Jssor Slider End -->
+        <!--visual_pc/-->
+      </section>
+
+      <section class="contents">
+        <div class="content1 multiple">
+          <p class="c1_title">BEST SELLERS</p>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"
+                ><img src="images/best1.jpg" alt="best_img1" />
+                <p class="c1_txt">
+                  씁쓸한 오렌지 | 시더우드 | 달콤한 리코라이스<br />
+                  <span class="txt_b">바디로션 BIGALICO</span><br />
+                  59,500원
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"
+                ><img src="images/best2.jpg" alt="best_img2" />
+                <p class="c1_txt">
+                  손 소독제+퍼퓸 핸드<br />
+                  <span class="txt_b">퍼퓸 핸드케어 미니 세트 FEY9</span><br />
+                  26,500원
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"
+                ><img src="images/best3.jpg" alt="best_img3" />
+                <p class="c1_txt">
+                  손 소독제 세 가지 향<br />
+                  <span class="txt_b">손 소독제 트리오(000+FEY9+7)</span><br />
+                  24,500원
+                </p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"
+                ><img src="images/best4.jpg" alt="best_img4" />
+                <p class="c1_txt">
+                  샌달우드 | 패츌리 | 흙 내음<br />
+                  <span class="txt_b">퍼퓸드 핸드앤바디 에멀전 000</span><br />
+                  43,000원
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!--content1/-->
+
+        <div class="content2">
+          <h1>SAMPLE OF TAMBURINS</h1>
+
+          <div class="cont2_in">
+            <ul class="c2_list">
+              <li>
+                <a href="#"
+                  ><img src="images/sample1.jpg" alt="sample_img1" />
+                  <div class="cap">
+                    <img src="images/sample1-1.jpg" alt="sample_img1-1" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="images/sample2.jpg" alt="sample_img2" />
+                  <div class="cap">
+                    <img src="images/sample2-1.jpg" alt="sample_img2-1" /></div
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="images/sample3.jpg" alt="sample_img3" />
+                  <div class="cap">
+                    <img src="images/sample3-1.jpg" alt="sample_img3-1" /></div
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="images/sample4.jpg" alt="sample_img4" />
+                  <div class="cap">
+                    <img src="images/sample4-1.jpg" alt="sample_img4-1" /></div
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="images/sample5.jpg" alt="sample_img5" />
+                  <div class="cap">
+                    <img src="images/sample5-1.jpg" alt="sample_img5-1" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="images/sample6.jpg" alt="sample_img6" />
+                  <div class="cap">
+                    <img src="images/sample6-1.jpg" alt="sample_img6-1" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--cont3_in/-->
+        </div>
+        <!--content3/-->
+
+        <div class="content3">
+          <h1>SCENTED PRODUCTS</h1>
+          <ul class="c3_menu">
+            <li class="li3-1 active">
+              <a href="#">샤워리 바디 <br /><span class="line line1"></span></a>
+            </li>
+            <li class="li3-2">
+              <a href="#">FOR 핸드 <span class="line line2"></span></a>
+            </li>
+            <li class="li3-3">
+              <a href="#">올팩티브 캔들 <span class="line line3"></span></a>
+            </li>
+            <li class="li3-4">
+              <a href="#">멀티프레그러스 <span class="line line4"></span></a>
+            </li>
+          </ul>
+
+          <div class="cont3_in">
+            <div class="c3_box c3_box1">
+              <ul class="box_in">
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/bigalico_detail-1.jpg"
+                      alt="bigalico_img"
+                      class="b_img"
+                  /></a>
+                </li>
+                <li>
+                  <img src="images/back_img1.jpg" alt="bialico_img2" />
+                  <p class="c3_plus"><a href="#">더보기</a></p>
+                </li>
+              </ul>
+              <!--box1_in/-->
+            </div>
+            <!--c3_box1/-->
+
+            <div class="c3_box c3_box2">
+              <ul class="box_in">
+                <li>
+                  <a href="#"
+                    ><img src="images/vein.jpg" alt="images" class="vein_img"
+                  /></a>
+                </li>
+                <li>
+                  <img src="images/back_img2.jpg" alt="vein_img2" />
+                  <p class="c3_plus"><a href="#">더보기</a></p>
+                </li>
+              </ul>
+              <!--box2_in/-->
+            </div>
+            <!--c3_box2/-->
+
+            <div class="c3_box c3_box3">
+              <ul class="box_in">
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/candle_detail.jpg"
+                      alt="candle_img"
+                      class="b_img"
+                  /></a>
+                </li>
+                <li>
+                  <img src="images/back_img3.jpg" alt="candle_img2" />
+                  <p class="c3_plus"><a href="#">더보기</a></p>
+                </li>
+              </ul>
+              <!--box3_in/-->
+            </div>
+            <!--c3_box3/-->
+
+            <div class="c3_box c3_box4">
+              <ul class="box_in">
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/sun1001_detail.jpg"
+                      alt="sun1001_img"
+                      class="b_img"
+                  /></a>
+                </li>
+                <li>
+                  <img src="images/back_img4.jpg" alt="sun1001_img2" />
+                  <p class="c3_plus"><a href="#">더보기</a></p>
+                </li>
+              </ul>
+              <!--c3_box4/-->
+            </div>
+            <!--c3_box4/-->
+          </div>
+          <!--cont3_in/-->
+        </div>
+        <!--content3/-->
+
+        <div class="content4">
+          <h1>STORE & EXHIBITION</h1>
+          <a href="#"
+            ><video src="media/Exhibition.mp4" loop autoplay muted></video
+          ></a>
+          <div class="content4_in">
+            <img src="images/Logo_c.png" alt="tamburins_logo" class="logo_c" />
+            <p class="c4_btn"><a href="#">더보기</a></p>
+          </div>
+          <!--content4_in-->
+        </div>
+        <!--content4/-->
+
+        <div class="content4_mt">
+          <h1>STORE & EXHIBITION</h1>
+          <div class="content4_in">
+            <a href="#"
+              ><video src="media/Exhibition.mp4" loop autoplay muted></video
+            ></a>
+            <h3>코쿤 컬렉션</h3>
+            <p class="c4_mt_txt">
+              코쿤 컬렉션 전시는 탬버린즈의 세 번째 핸드크림 컬렉션<br />
+              <b>‘올팩티브 아카이브 (OLFACTIVE ARCHIVE)’</b>의 런칭을
+              기념하여<br />
+              새롭게 공개하는 향의 스토리를 담은 프로젝트입니다.<br /><br />
+              올팩티브 아카이브에 영감을 준 *OLFACTION은 향을 주관적인 경험이나
+              이미지와 결합해 기억하는 방식으로, 올팩티브 아카이브의 첫 번째
+              컬렉 션인 코쿤 컬렉션은 어린 시절 들었던 누에고치가 뽕잎을
+              갉아먹는 소리<br />
+              의 경험을 향으로 형상화하고 탬버린즈의 언어로 재구성한 기록입니다.
+              전시장 내부의 공간을 압도하는 대형 누에 키네틱을 비롯한 다양한
+              아트 마주하게 합니다.
+            </p>
+
+            <p class="c4_mt_btn"><a href="#">더보기</a></p>
+          </div>
+          <!--content4_in-->
+        </div>
+        <!--content4/-->
+      </section>
+      <!--contents/-->
+
+      <footer class="footer">
+        <p class="f_line"></p>
+        <div class="foot1">
+          <ul class="f_menu">
+            <li class="fm_1">
+              <a href="#">고객센터</a>
+              <ul class="f_in_list">
+                <li><a href="#">주문 배송 조회</a></li>
+                <li><a href="#">적립금 현황</a></li>
+                <li><a href="#">고객 서비스</a></li>
+                <li><a href="#">자주 묻는 질문</a></li>
+                <li><a href="#">1:1 문의하기</a></li>
+                <li><a href="#">상품 문의 내역</a></li>
+              </ul>
+            </li>
+
+            <li class="fm_2">
+              <a href="#">선물추천</a>
+              <ul class="f_in_list">
+                <li><a href="#">온라인 서비스</a></li>
+              </ul>
+            </li>
+
+            <li class="fm_3">
+              <a href="#">소셜</a>
+              <ul class="f_in_list">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Kakaotalk</a></li>
+                <li><a href="#">Waibo</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!--foot1/-->
+        <p class="f_line"></p>
+
+        <div class="foot2">
+          <p>
+            주)아이아이컴바이드 | 사업자등록번호:119-86-38589 | 대표자:김한국 |
+            서울특별시 마포구 어울마당로5길 47 | 대표번호:1644-1246 |
+            이메일:cs@tamburins.com<br />
+            개인정보 보호 책임자:박세진 | 호스팅 서비스 사업자:Aws |
+            통신판매업신고:제 2014-서울마포-1050호
+            <span><a href="#">(사업자정보확인)</a></span> |
+            <span><a href="#">개인정보처리방침</a></span> |
+            <span><a href="#">이용약관</a></span
+            ><br /><br />
+            고객님의 안전한 현금자산 거래를 위하여 하나은행과 채무지급보증계약을
+            체결하여 보장해드리고 있습니다.<br /><br />
+            &copy; 탬버린즈&nbsp;&nbsp;대한민국
+          </p>
+        </div>
+        <!--foot2/-->
+      </footer>
+      <!--footer/-->
+    </div>
+    <!--wrap/-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".multiple", {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamburins</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/login-media.css">
+    <link rel="shortcut icon" type="images/x-icon" href="common/images/favicon.ico">
+
+    <script src="../mainjs/jquery-1.10.2.min.js"></script>
+    <script src="../mainjs/jquery.scrollbox.js"></script>
+
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header class="header">
+           <div class="header_pc">
+            <div class="header_menu">
+                <p><a href="../index.html"><img src="../common/images/Logo.png" alt=""></a></p>
+
+                <nav class="nav">
+                    <ul class="gnb">
+                        <li class="m"><a href="#">향관련 제품</a></li>
+                        <li class="m"><a href="#">선물 추천</a></li>
+                        <li class="m"><a href="#">샘플 경험</a></li>
+                        <li class="m"><a href="#">매장 보기</a></li>
+                    </ul>
+                </nav>
+
+                <ul class="pc_login">
+                   <li><a href="login.html">Login</a> /</li>
+                   <li><a href="#">Search</a> /</li>
+                   <li><a href="#">Cart</a></li>
+                </ul>
+
+                <div class="submenu">
+                    <ul class="sub sub1">
+                        <li class="s1-1"><a href="../sub/sub.html">핸드<span class="s_circle"></span></a></li>
+                        <li class="s1-2"><a href="#">바디<span class="s_circle"></span></a></li>
+                        <li class="s1-3"><a href="#">캔들<span class="s_circle"></span></a></li>
+                        <li class="s1-4"><a href="#">멀티프래그런스<span class="s_circle"></span></a></li>
+                    </ul>
+
+                    <ul class="sub sub2">
+                        <li class="s2-1"><a href="#">베스트 셀러<span class="s_circle"></span></a></li>
+                        <li class="s2-2"><a href="#">선물 추천<span class="s_circle"></span></a></li>
+                    </ul>
+
+                    <ul class="sub sub3">
+                    </ul>
+
+                    <ul class="sub sub4">
+                        <li class="s4-1"><a href="#">스토어 둘러보기<span class="s_circle"></span></a></li>
+                        <li class="s4-2"><a href="#">전시 구경하기<span class="s_circle"></span></a></li>
+                    </ul>
+                   </div><!--submenu/-->
+
+            </div><!--header_menu/-->
+            </div><!--header_menu/-->
+           </div><!--header_pc/-->
+
+            <div class="header_m_t">
+                <p class="h_menubar"><a href="#"><img src="../common/images/menubar.png" alt=""></a></p>
+                <p class="h_logo"><a href="../index.html"><img src="../common/images/Logo.png" alt=""></a></p>
+
+                <ul class="m_t_login">
+                    <li class="search"><a href="#"><img src="../common/images/search.png" alt=""></a></li>
+                    <li><a href="#"><img src="../common/images/cart.png" alt=""></a></li>
+                </ul>
+            </div><!--header_m_t/-->
+        </header><!--header/-->
+
+        <div class="menu_nav">
+            <p class="nav_close"><img src="../common/images/ic_menu-x.png" alt="cl"></p>
+
+            <nav class="nav">
+                <ul class="gnb">
+                    <li><a href="#">향관련 제품</a></li>
+                    <li class="n_login"><a href="#">선물 추천</a></li>
+                    <li><a href="#">샘플 경험</a></li>
+                    <li><a href="#">매장 보기</a></li>
+                </ul>
+
+                <ul class="gnb2">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#">문의하기</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">Shop in KR</a></li>
+                </ul>
+            </nav>
+        </div><!--menu_nav/-->
+
+        <div class="black_back"></div>
+
+        <div class="search_open">
+            <p class="search_close"><img src="../common/images/arrow.png" alt=""></p>
+
+            <div class="search_in">
+            <p class="s_txt"><input type="text" placeholder="탬버린즈와 함께 향기로운 하루 만들기"></p>
+            <p class="s_btn"><input type="image" src="../common/images/search.png" alt="search"></p>
+       
+            <p class="search_txt">지금 가장 많이 찾아요!</p>
+
+            <div id="scroll" class="scroll-text">
+                <ul class="s_list">
+                  <li><a href="#">#샤워리바디</a></li>
+                  <li><a href="#">#튜브 핸드</a></li>
+                  <li><a href="#">#올팩티브 핸들</a></li>
+                  <li><a href="#">#퍼퓸 핸드</a></li>
+                  <li><a href="#">#핸드의 바디</a></li>
+                  <li><a href="#">#멀티프래그런스</a></li>
+              </ul>
+            </div>
+            </div><!--search_in-->
+        </div><!--search_open-->
+
+        <div class="contents">
+            <div class="content_in">
+                <div class="cont1">
+                    <h1>LOGIN</h1>
+                    <div class="cont1_in">
+                        <p class="id">아이디</p>
+                        <input type="text" placeholder="아이디를 입력하세요." class="id_input">
+
+                        <p class="pw">비밀번호</p>
+                        <input type="password" placeholder="비밀번호를 입력하세요." class="pw_input">
+
+                        <ul class="login_btn">
+                            <li class="login">로그인</li>
+                            <li class="n_login">네이버 로그인</li>
+                            <li class="k_login">카카오 로그인</li>
+                        </ul>
+
+                        <ul class="search_ip">
+                            <li><a href="#">아이디 또는 비밀번호 찾기</a></li>
+                            <li>|</li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">비회원 주문조회</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cont2">
+                    <h1>JOIN US</h1>
+                </div>
+            </div><!--content_in-->
+        </div><!--contents/-->
+    </div><!--wrap/-->
+</body>
+</html>
