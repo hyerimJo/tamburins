@@ -16,10 +16,28 @@
   .contents .content2 .cont2_in ul li {
     margin: 0 5% 5% 0;
   }
+  .contents .content3 .c3_menu {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .contents .content3 .c3_menu li a {
+    font-size: 18px;
+    color: #000;
+  }
+  .contents .content3 .cont3_in {
+    width: 85%;
+  }
   .contents .content3 .cont3_in .box_in {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
+  }
+  .contents .content3 .c3_menu li .line {
+    width: 130px;
+    height: 5px;
   }
 }
 

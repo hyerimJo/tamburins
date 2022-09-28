@@ -166,9 +166,12 @@ a {
 }
 .header .header_mt .h_logo {
   margin: 0 auto;
-  width: 200px;
+  width: 180px;
   height: 50px;
   padding-top: 10px;
+}
+.header .header_mt .h_logo img {
+  width: 100%;
 }
 .header .header_mt .mt_login {
   position: absolute;

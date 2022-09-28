@@ -260,7 +260,7 @@
   color: #000;
   line-height: 40px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 .contents .content3 .cont_in .box_in li .c3_plus a:hover {
   opacity: 0.9;
@@ -347,9 +347,10 @@
 }
 .contents .content4_mt .content4_in h3 {
   text-align: center;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 .contents .content4_mt .content4_in .c4_mt_txt {
+  font-size: 12px;
   text-align: center;
   margin: 0 auto;
   width: 90%;
